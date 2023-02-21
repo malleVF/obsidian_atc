@@ -1,0 +1,43 @@
+{
+	"nodes":[
+		{"id":"8aab1364097e7f58","x":-741,"y":120,"width":333,"height":193,"color":"3","type":"file","file":"01 Abstract of ATC/ATC Subjects/Mitigation Policies.md"},
+		{"id":"9bcf633f1c6339d0","x":-741,"y":-177,"width":333,"height":234,"color":"3","type":"file","file":"01 Abstract of ATC/ATC Subjects/Mitigation Systems.md"},
+		{"id":"6183e8ff595d26a3","x":-664,"y":-464,"width":230,"height":180,"type":"file","file":"01 Abstract of ATC/ATC Subjects/Customer.md"},
+		{"id":"8f08e1a66dd552cc","x":-664,"y":-733,"width":240,"height":234,"color":"6","type":"file","file":"01 Abstract of ATC/ATC Subjects/Enrichments.md"},
+		{"id":"38b86519744f2c35","x":39,"y":-806,"width":277,"height":202,"color":"6","type":"file","file":"01 Abstract of ATC/ATC Subjects/Detection Rules.md"},
+		{"id":"d753c9b4069da100","x":-334,"y":-806,"width":271,"height":234,"color":"6","type":"file","file":"01 Abstract of ATC/ATC Subjects/Data Needed.md"},
+		{"id":"4b808d2bfa362b57","x":444,"y":-708,"width":255,"height":151,"color":"#70f7e7","type":"file","file":"01 Abstract of ATC/ATC Subjects/Reporting.md"},
+		{"id":"3c3a697cf6d15383","x":-697,"y":371,"width":284,"height":208,"color":"3","type":"file","file":"01 Abstract of ATC/ATC Subjects/Hardening Policies.md"},
+		{"id":"c4ff470cec46fe33","x":-697,"y":639,"width":284,"height":231,"color":"3","type":"file","file":"01 Abstract of ATC/ATC Subjects/Logging Policies.md"},
+		{"id":"d289a25116098830","x":466,"y":-4,"width":287,"height":179,"color":"1","type":"file","file":"01 Abstract of ATC/ATC Subjects/Triggers.md"},
+		{"id":"746aa76cfd1b0981","x":466,"y":-374,"width":263,"height":292,"color":"4","type":"file","file":"01 Abstract of ATC/ATC Subjects/Use Cases.md"},
+		{"id":"24c0d381e234fa9c","x":-141,"y":-193,"width":180,"height":167,"color":"#0d0d0d","type":"file","file":"01 Abstract of ATC/ATC Subjects/Platform & Provider.md"},
+		{"id":"7ab6f43cc80d724c","x":316,"y":343,"width":329,"height":296,"color":"#1c5cf2","type":"file","file":"01 Abstract of ATC/ATC Subjects/Response Actions.md"},
+		{"id":"fc504a218adea9d8","x":-141,"y":502,"width":370,"height":271,"color":"#1c5cf2","type":"file","file":"01 Abstract of ATC/ATC Subjects/Response Playbooks.md"},
+		{"id":"ffb4ea4d003e1bf5","x":729,"y":435,"width":348,"height":231,"color":"#363535","type":"file","file":"01 Abstract of ATC/ATC Subjects/Response Stages.md"}
+	],
+	"edges":[
+		{"id":"d94aa5c0c0cbb50f","fromNode":"7ab6f43cc80d724c","fromSide":"right","toNode":"ffb4ea4d003e1bf5","toSide":"left","color":"#8aabf8"},
+		{"id":"f43e0537785a6df5","fromNode":"7ab6f43cc80d724c","fromSide":"top","toNode":"9bcf633f1c6339d0","toSide":"right","color":"#6c96f7"},
+		{"id":"378223270de84bd0","fromNode":"7ab6f43cc80d724c","fromSide":"top","toNode":"d753c9b4069da100","toSide":"bottom","color":"#8aabf8"},
+		{"id":"33963f242cf6b8ad","fromNode":"fc504a218adea9d8","fromSide":"right","toNode":"7ab6f43cc80d724c","toSide":"left","color":"#8aabf8"},
+		{"id":"4c99f9fb37bc7af0","fromNode":"fc504a218adea9d8","fromSide":"bottom","toNode":"ffb4ea4d003e1bf5","toSide":"bottom","color":"#8aabf8"},
+		{"id":"d6c9f70d325f9212","fromNode":"38b86519744f2c35","fromSide":"left","toNode":"d753c9b4069da100","toSide":"right","color":"6"},
+		{"id":"ea9d2c0aa3d025fd","fromNode":"746aa76cfd1b0981","fromSide":"left","toNode":"d753c9b4069da100","toSide":"right","color":"#71d599"},
+		{"id":"6719e4fe4d5f510f","fromNode":"746aa76cfd1b0981","fromSide":"left","toNode":"c4ff470cec46fe33","toSide":"right","color":"#71d599"},
+		{"id":"d989718026a2d186","fromNode":"746aa76cfd1b0981","fromSide":"left","toNode":"38b86519744f2c35","toSide":"right","color":"#81cd9f"},
+		{"id":"a6525214bc80f739","fromNode":"8f08e1a66dd552cc","fromSide":"right","toNode":"d753c9b4069da100","toSide":"left","color":"6"},
+		{"id":"14350301b61ac206","fromNode":"6183e8ff595d26a3","fromSide":"right","toNode":"746aa76cfd1b0981","toSide":"left","color":"#cfcfcf"},
+		{"id":"70f7a33ac30b19cd","fromNode":"6183e8ff595d26a3","fromSide":"right","toNode":"d753c9b4069da100","toSide":"bottom"},
+		{"id":"d151a8cf20a9a0ae","fromNode":"6183e8ff595d26a3","fromSide":"left","toNode":"c4ff470cec46fe33","toSide":"left"},
+		{"id":"ccaf003cc83b24f0","fromNode":"6183e8ff595d26a3","fromSide":"right","toNode":"38b86519744f2c35","toSide":"bottom"},
+		{"id":"ba2e9dbd01abf88b","fromNode":"8aab1364097e7f58","fromSide":"left","toNode":"9bcf633f1c6339d0","toSide":"left","color":"3"},
+		{"id":"a8fbac521367f3a0","fromNode":"38b86519744f2c35","fromSide":"bottom","toNode":"24c0d381e234fa9c","toSide":"top","color":"#0a0a0a","label":"symbolic link"},
+		{"id":"79f14fd62a2ed950","fromNode":"c4ff470cec46fe33","fromSide":"right","toNode":"24c0d381e234fa9c","toSide":"bottom","color":"#050505"},
+		{"id":"df8f1cf7dcfcc6a6","fromNode":"8aab1364097e7f58","fromSide":"right","toNode":"24c0d381e234fa9c","toSide":"left","color":"#050505","label":"symbolic link"},
+		{"id":"d73c63f5c3a812af","fromNode":"9bcf633f1c6339d0","fromSide":"right","toNode":"24c0d381e234fa9c","toSide":"left","color":"#050505"},
+		{"id":"361d1da30a679c96","fromNode":"3c3a697cf6d15383","fromSide":"right","toNode":"24c0d381e234fa9c","toSide":"bottom","color":"#050505","label":"symbolic link"},
+		{"id":"00c15cd63f36183f","fromNode":"8f08e1a66dd552cc","fromSide":"right","toNode":"24c0d381e234fa9c","toSide":"left","color":"#080808"},
+		{"id":"ac441489eb292680","fromNode":"d289a25116098830","fromSide":"left","toNode":"38b86519744f2c35","toSide":"bottom","color":"1"}
+	]
+}
