@@ -10,14 +10,17 @@ in honour to the [ATC-Project](https://github.com/atc-project|ATC-Project) (Atom
 
 ## Summary 
 
-Overview of the ATC-project and conversion to [obsidian](obsidian.md) and mapping to other frameworks and standards for data enrichment.
+Overview of the ATC-project and conversion of the documentation to [Obsidian](obsidian.md) and mapping to other frameworks and standards for data enrichment.
+
+![](https://github.com/malleVF/obsidian_atc/blob/main/images/Canvas.png)
+(Image: Canvas)
 
 ## What to expect
 The files in this repo are only for drawing the graph and canvas in an Obsidian vault.
 
 To get the complete documentation of [ATC Framework](https://github.com/atc-project/atomic-threat-coverage), just download the repository and copy the unzipped **Atomic_Threat_Coverage** directory into your Obsidian Vault.
 
-The ATC Framework covers the following subjects:
+### The ATC Framework covers the following subjects
 
 - **Detection Rules** - Technical description of SIEM rules in a generic format.
 - **Data Needed** - Description and example of an event needed for the Detection Rules.
@@ -34,8 +37,18 @@ The ATC Framework covers the following subjects:
 - **Use Cases** - Description of use cases that are detected by a SIEM.
 - **Reporting** - Not yet defined in the ATC-Framework
 
+![](https://github.com/malleVF/obsidian_atc/blob/main/images/Graph_View.png)
+(Image: Graph view of above Canvas)
 
-Frameworks and Standards to enrich data:
+#### Notice
+
+~~~
+Not all subjects in the ATC are maintained as extensively as the Response_Action directory. 
+The ATC has not yet included use case reporting and assessment.
+For this I refer to other frameworks and standards as data sources for your own ideas for documentation.
+~~~
+
+### Frameworks and Standards to enrich data
 
 - **ATC Framework** - The basic model of the template structure and design
 - **Atomic-Red-Team Testing Libary** - is a library of tests for SIEM detection rules, mapped to the MITRE ATT&CK framework.
@@ -47,8 +60,5 @@ Frameworks and Standards to enrich data:
 - **SIGMA Rule Repository** - Generic Signature Format for SIEM Systems, it is a generic and open signature format that allows to describe relevant log events in a straightforward manner.
 - **DISARM** - is a framework designed for describing and understanding disinformation incidents. 
 
-### Notice ###
-
-Not all areas in the ATC are maintained as extensively as the Response_Action directory. 
-The ATC has not yet included use case reporting and assessment.
-For this I refer to other frameworks and standards as data sources for your own ideas for documentation.
+![](https://github.com/malleVF/obsidian_atc/blob/main/images/Graph_All.png)
+(Image: Graph view of all notes, inclusive ATC)
