@@ -60,7 +60,7 @@ For this I refer to other frameworks and standards as data sources for your own 
 - **SIGMA Rule Repository** - Generic Signature Format for SIEM Systems, it is a generic and open signature format that allows to describe relevant log events in a straightforward manner.
 - **DISARM** - is a framework designed for describing and understanding disinformation incidents. 
 
-![](https://github.com/malleVF/obsidian_atc/blob/main/images/Graph_All_color.png)
+![](https://github.com/malleVF/obsidian_atc/blob/main/images/Graph_All.png)
 (Image: Graph view of all notes, inclusive ATC)
 
 Legend: 
